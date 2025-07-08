@@ -41,7 +41,7 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgb(148, 148, 148);
         width: 300px;
-        font-family: 'Comic Sans MS', cursive, sans-serif;
+        font-family: 'Comic Sans MS', sans-serif;
       }
       .login-container h1{
         text-align: center;
@@ -73,12 +73,8 @@
     </style>
   </head>
   <body>
-    <header style="background-color: rgb(17, 17, 128)">
+    <header style="background-color: rgb(245, 245, 245)">
       <center>
-        <h1>
-          <span style="color: rgb(255, 255, 255)">CE</span><span style="color: red">EPP</span
-          ><span style="color: rgb(255, 255, 255)">LG</span>
-        </h1>
       </center>
     </header>
     <div id="meio">
@@ -89,7 +85,7 @@
             <input type="text" id="usuario" placeholder="Usuário" required> <br />
             <input type="password" id="senha" placeholder="Senha" required> <br /> <br />
             <button type="submit">ENTRAR</button>
-        <a href="site.html">cadastre-se</a>
+            <a href="site2.html" style="color: black;">cadastre-se</a>
           <h3><span class="mens" id="mensagem"></span></h3>
       </form>
         </center>
@@ -105,12 +101,12 @@
           mensagem.style.color="blue";
           mensagem.textContent = "LOGIN AUTORIZADO!!";
         setTimeout(() => {
-          window.location.href = "site.html";
+          window.location.href = "inicial.html";
         }, 1000);
           return false;
         } else {
           mensagem.style.color="red";
-          mensagem.textContent = "USUÁRIO OU SENHA ENTÁ INCORRETO. TENTE NOVAMENTE"
+          mensagem.textContent = "USUÁRIO OU SENHA ESTÁ INCORRETO. TENTE NOVAMENTE"
           return false;
         }
       }
