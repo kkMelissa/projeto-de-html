@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> principal</title>
+        <style>
+            #cabecalho { 
+                background-color: rgb(153, 140, 121);
+                padding: 5px;
+                text-align: center;
+                border-bottom: 2px solid #ddd;
+                height: 40px;
+                width: 100%;
+            }
+            #principal { 
+                background-color:rgb(92, 74, 48);
+                padding: 5px;
+                border-bottom: 2px solid rgb(245, 223, 255);
+                width: 100%;
+                height: 900px;
+            }
+            #menu {
+                background-color:rgb(153, 140, 121);
+                padding: 5px;
+                text-align: left;
+                height: 900px;
+                width: 300px;
+                float: left;
+            }
+            img {
+                display: inline-block; 
+                margin: 20px;
+                width: 300px;
+                height: 500px
+            }   
+            #footer {
+                background-color: rgb(126, 117, 105);
+                padding: 20px;
+                text-align: center;
+                border-bottom: 0px solid #f8da32;
+            }
+        </style>
+    </head>
+    <body>
+        <div id= "cabecalho">
+            <center>
+            </center>
+        </div>
+        <div id="menu">
+            <center>
+                <a> <iframe width="280" height="157" src="https://www.youtube.com/embed/jM6sT6iL9S4?si=dVS3RUgRX0iNls8T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+            </center>
+            </div>
+        <div id="principal">
+             <center>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src=""></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://i.pinimg.com/736x/26/a6/65/26a6659d5fc6904b609aa43b5d9552c7.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+
+             </center>
+        </div>
+        <div id="footer">
+            <p><h1>Estamos sem ideia do que colocar, desculpa Fabinho Ɛ></h1>
+        </div>
+    </body>
+</html>
