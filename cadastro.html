@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>login</title>
+    <title>Cadastro</title>
     <style>
-      header{
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      header {
         width: 100%;
         height: 80px;
         margin: 0;
         padding: 0;
         justify-content: center;
         align-items: center;
-        font-family: 'Comic Sans MS', cursive, sans-serif;
+        font-family: "Comic Sans MS", cursive, sans-serif;
       }
-      #mens{
+      #mens {
         margin-top: 10px;
         text-align: center;
-        color:rgb(0, 126, 165)
+        color: rgb(0, 126, 165);
       }
       body {
         font-family: "Inter", sans-serif;
@@ -33,31 +38,31 @@
         height: 800px;
         width: 100%;
       }
-      .login-container{
+      .login-container {
         background-color: rgb(235, 235, 235);
         padding: 40px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgb(148, 148, 148);
         width: 300px;
-        font-family: 'Comic Sans MS', sans-serif;
+        font-family: "Comic Sans MS", sans-serif;
       }
-      .login-container h1{
+      .login-container h1 {
         text-align: center;
         margin-bottom: 20px;
-        color:rgb(0, 0, 0)
+        color: rgb(0, 0, 0);
       }
       .login-container button {
         width: 100%;
         padding: 10px;
         background-color: rgb(172, 172, 172);
-        border:#ffffff;
-        color:rgb(65, 65, 65);
+        border: #ffffff;
+        color: rgb(65, 65, 65);
         border-radius: 10px;
         cursor: pointer;
-        font-family: 'Comic Sans MS', cursive, sans-serif;
+        font-family: "Comic Sans MS", cursive, sans-serif;
       }
-      .login-container button:hover{
-        background-color:rgb(197, 197, 197);
+      .login-container button:hover {
+        background-color: rgb(197, 197, 197);
       }
       #footer {
         margin: 0;
@@ -75,22 +80,37 @@
   </head>
   <body>
     <header style="background-color: rgb(245, 245, 245)">
-            <a href="login.html" style="color: black;">◀</a>
+      <a href="login.html" style="color: black">◀</a>
     </header>
     <div id="meio">
-    <div class="login-container">
+      <div class="login-container">
         <center>
-        <h1>cadastro</h1>
-      <form onsubmit="return validarLogin()">
-            <input type="text" id="usuario" placeholder="Usuário" required> <br />
-            <input type="text" id="email" placeholder="Insira um email" required> <br />
-            <input type="password" id="senha" placeholder="Senha" required> <br />
-            <input type="password" id="senha2" placeholder="Confirmar senha" required> <br /> <br />
+          <h1>cadastro</h1>
+          <form onsubmit="return validarLogin()">
+            <input type="text" id="usuario" placeholder="Usuário" required />
+            <br />
+            <input
+              type="text"
+              id="email"
+              placeholder="Insira um email"
+              required
+            />
+            <br />
+            <input type="password" id="senha" placeholder="Senha" required />
+            <br />
+            <input
+              type="password"
+              id="senha2"
+              placeholder="Confirmar senha"
+              required
+            />
+            <br />
+            <br />
             <button type="submit">ENTRAR</button>
-          <h3><span class="mens" id="mensagem"></span></h3>
-      </form>
+            <h3><span class="mens" id="mensagem"></span></h3>
+          </form>
         </center>
-    </div>
+      </div>
     </div>
     <script>
       function validarLogin() {
@@ -100,7 +120,8 @@
       }
     </script>
     <div id="footer">
-      <br /><h2>feito por Clara Maria e Melissa Maria</h2>
+      <br />
+      <h2>feito por Clara Maria e Melissa Maria</h2>
     </div>
   </body>
 </html>
