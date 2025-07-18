@@ -14,28 +14,30 @@
             #principal { 
                 background-color:rgb(92, 74, 48);
                 padding: 5px;
-                border-bottom: 2px solid rgb(245, 223, 255);
+                border-bottom: 2px solid rgb(170, 151, 140);
                 width: 100%;
-                height: 900px;
+                height: 3500px;
             }
             #menu {
                 background-color:rgb(153, 140, 121);
                 padding: 5px;
                 text-align: left;
-                height: 900px;
+                height: 3500px;
                 width: 300px;
                 float: left;
             }
             img {
                 display: inline-block; 
-                margin: 20px;
+                margin: 85px;
                 width: 300px;
-                height: 500px
+                height: 500px;
+                border-radius: 15%;
             }   
             #footer {
                 background-color: rgb(126, 117, 105);
                 padding: 20px;
                 text-align: center;
+                width: 1859px;
                 border-bottom: 0px solid #f8da32;
             }
         </style>
@@ -48,13 +50,14 @@
         <div id="menu">
             <center>
                 <a> <iframe width="280" height="157" src="https://www.youtube.com/embed/jM6sT6iL9S4?si=dVS3RUgRX0iNls8T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <a><iframe width="280" height="157" src="https://www.youtube.com/embed/EYPemYDTyWU?si=hXtm0KHW9Uo7xo0j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
             </center>
             </div>
         <div id="principal">
              <center>
                     <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
                     <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="login.html" class="button-link"> <img src=""></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
                     <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
                     <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
                     <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
@@ -64,11 +67,13 @@
                     <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
                     <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
                     <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="login.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
 
              </center>
         </div>
         <div id="footer">
-            <p><h1>Estamos sem ideia do que colocar, desculpa Fabinho Ɛ></h1>
+            <h2>Feito por Clara e Meli <3</h2>
         </div>
     </body>
 </html>
