@@ -4,22 +4,23 @@
         <title> principal</title>
         <style>
             #cabecalho { 
-                background-color: rgb(153, 140, 121);
+                background-color: rgb(209, 209, 209);
                 padding: 5px;
                 text-align: center;
                 border-bottom: 2px solid #ddd;
                 height: 40px;
                 width: 100%;
+                font: bolder;
             }
             #principal { 
-                background-color:rgb(92, 74, 48);
+                background-color:rgb(221, 221, 221);
                 padding: 5px;
-                border-bottom: 2px solid rgb(170, 151, 140);
+                border-bottom: 2px solid rgb(221, 221, 221);
                 width: 100%;
                 height: 3500px;
             }
             #menu {
-                background-color:rgb(153, 140, 121);
+                background-color:rgb(194, 194, 194);
                 padding: 5px;
                 text-align: left;
                 height: 3500px;
@@ -34,11 +35,10 @@
                 border-radius: 15%;
             }   
             #footer {
-                background-color: rgb(126, 117, 105);
+                background-color: rgb(209, 209, 209);
                 padding: 20px;
                 text-align: center;
                 width: 1859px;
-                border-bottom: 0px solid #f8da32;
             }
         </style>
     </head>
@@ -50,25 +50,30 @@
         <div id="menu">
             <center>
                 <a> <iframe width="280" height="157" src="https://www.youtube.com/embed/jM6sT6iL9S4?si=dVS3RUgRX0iNls8T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
-                <a><iframe width="280" height="157" src="https://www.youtube.com/embed/EYPemYDTyWU?si=hXtm0KHW9Uo7xo0j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <a> <iframe width="280" height="157" src="https://www.youtube.com/embed/EYPemYDTyWU?si=hXtm0KHW9Uo7xo0j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
             </center>
             </div>
         <div id="principal">
              <center>
+                    <br>    
+                    <h1>DEUSES DO OLIMPO DA MITOLOGIA GREGA</h1>
                     <a href="zeus.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="hera.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="poseidon.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="afrodite.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="ares.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="hefesto.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="hermes.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="apolo.html" class="button-link"> <img src="https://i.pinimg.com/736x/26/a6/65/26a6659d5fc6904b609aa43b5d9552c7.jpg"></a>
-                    <a href="artemis.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="atena.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="dionisio.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="demeter.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="hades.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
-                    <a href="hestia.html" class="button-link"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg"></a>
+                    <a href="hera.html" class="button-link"> <img src="https://i.pinimg.com/736x/f0/89/76/f089769195bac888d3b993163e32e6cc.jpg"></a>
+                    <a href="poseidon.html" class="button-link"> <img src="https://i.pinimg.com/736x/c8/02/d0/c802d02115eafe5959bab13e195541a3.jpg"></a>
+                    <a href="afrodite.html" class="button-link"> <img src="https://i.pinimg.com/736x/f0/9f/66/f09f66b3b1a640c8b5d582bce65cadba.jpg"></a>
+                    <a href="apolo.html" class="button-link"> <img src="https://i.pinimg.com/736x/4e/0d/9b/4e0d9b6b913b6bad1323e759b9b5709e.jpg"></a>
+                    <a href="artemis.html" class="button-link"> <img src="https://i.pinimg.com/736x/3e/d4/e0/3ed4e0e75faca6da375b2bc582c745dc.jpg"></a>
+                    <a href="hermes.html" class="button-link"> <img src="https://i.pinimg.com/736x/12/85/05/128505b897b178b9276ac3cc3ca2e2a9.jpg"></a>
+                    <a href="ares.html" class="button-link"> <img src="https://i.pinimg.com/736x/26/a6/65/26a6659d5fc6904b609aa43b5d9552c7.jpg"></a>
+                    <a href="hefesto.html" class="button-link"> <img src="https://i.pinimg.com/736x/a4/53/91/a45391ae2d8b26d66ef28fd405e9db11.jpg"></a>
+                    <a href="atena.html" class="button-link"> <img src="https://i.pinimg.com/1200x/f5/04/2f/f5042f11381a22362151c2ad0101c9c8.jpg"></a>
+                    <a href="dionisio.html" class="button-link"> <img src="https://i.pinimg.com/736x/de/39/d6/de39d6e75c22040df883fb1cd25fdc1e.jpg"></a>
+                    <a href="demeter.html" class="button-link"> <img src="https://i.pinimg.com/736x/5c/2a/6d/5c2a6d51bddd01594005f25dba0cc1d1.jpg"></a>
+                    <br>
+                    <h1>MENSÕES HONROSAS</h1>
+                    <br>
+                    <a href="hades.html" class="button-link"> <img src="https://i.pinimg.com/1200x/a3/bc/3a/a3bc3a27b8bb78f4dc3c17778565725b.jpg"></a>
+                    <a href="hestia.html" class="button-link"> <img src="https://i.pinimg.com/736x/d7/ae/12/d7ae12a65c52caaf06a174d827e65ce3.jpg"></a>
 
              </center>
         </div>
