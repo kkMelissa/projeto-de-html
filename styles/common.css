@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#cabecalho {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  height: 40px;
+  width: 100%;
+}
+#principal {
+  padding: 5px;
+  width: 100%;
+  min-height: 100vh;
+}
+img {
+  display: inline-block;
+  margin: 85px;
+  width: 300px;
+  height: 500px;
+  border-radius: 15%;
+}
+#footer {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
