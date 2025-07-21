@@ -2,28 +2,61 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Arial", sans-serif;
 }
-#cabecalho {
-  padding: 5px;
-  text-align: center;
-  border-bottom: 2px solid #ddd;
-  height: 40px;
-  width: 100%;
-}
+
 #principal {
   padding: 5px;
   width: 100%;
   min-height: 100vh;
 }
-img {
-  display: inline-block;
-  margin: 85px;
-  width: 300px;
-  height: 500px;
-  border-radius: 15%;
-}
 #footer {
   padding: 20px;
   text-align: center;
   width: 100%;
+}
+h1 {
+  padding: 20px;
+}
+
+.conteudo {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.conteudo p {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 50px;
+
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.conteudo img {
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+  height: 500px;
+  border-radius: 15%;
+}
+.botao-voltar {
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+  width: 100%;
+}
+header img {
+  display: inline-block;
+  height: 35px;
 }
